@@ -26,6 +26,14 @@ a {
     font-weight: 600;
 }
 
+.w-300 {
+    font-weight: 300;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
 /* banner */
 
 .navbar-brand {
@@ -134,8 +142,11 @@ a {
     padding: 8rem 2rem;
 }
 
-#orange-back {
+.orange-back {
     background-image: url('../images/Bitmap(2).png');
+}
+
+.img-org {
     background-size: 100% 100%;
     background-position: center;
     max-width: 300px;
@@ -243,11 +254,37 @@ a {
 
 /* Order */
 
-   .order {
-       background-image: url('../images/Bitmap\(12\).png');
-   }
-   
+.order {
+    background-image: url('../images/Bitmap\(12\).png');
+}
+
 /* Order */
+
+/* chef */
+
+.chef-back {
+    background-image: url('../images/Bitmap(14).png');
+}
+
+
+.bottom-img {
+    margin-left: -60px;
+    margin-top: -140px;
+    max-width: 150px;
+}
+
+/* chef */
+
+/* customer */
+.org {
+    color: #ecbb9c;
+}
+
+.customer {
+    background: #fff;
+}
+
+/* customer */
 
 /* footer */
 
