@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=DM+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important; 
+}
+
+ ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-grey {
+    color: #2b3a41;
+}
+
+.text-grey-light {
+    color: grey;
+}
+
+.w-600 {
+    font-weight: 600;
+}
+
+/* banner */
+
+.navbar-brand {
+    padding: 10px 0;
+    font-family: 'Baskervville', serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+.nav-link {
+    font-weight: 600;
+    margin: 0 8px;
+}
+
+.dm-16 {
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.nav-link:hover {
+    color: #0083ff !important;
+    border-bottom: 2px solid #0083ff;
+}
+
+.banner {
+    background: #2b3a41;
+}
+  
+.home {
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right;
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    background-image: url('../images/Bitmap.png');
+}
+
+.title {
+    font-family: 'Baskervville', serif;
+    font-size: 55px;
+}
+
+.padding-title {
+    padding: 6rem 6rem 10rem 6rem;
+}
+
+.border-middle {
+    border: 1px solid #fff;
+    width: 8%;
+    margin-right: 20px;
+}
+
+.border-middle-grey {
+    border: 1px solid #2b3a41;
+    width: 8%;
+    margin-right: 20px;
+}
+
+.cap {
+    text-transform: uppercase;
+}
+
+.btn-orange {
+    border-radius: 0;
+    color: #fff;
+    background-color: #ECBB9C;
+    border-color: #ECBB9C;
+    font-size: 12px;
+    padding: 5px 30px;
+}
+
+.btn-circle.btn-xl { 
+    width: 60px; 
+    height: 60px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+    background-color: #fff;
+    color: black;
+} 
+
+.btn-circle.btn-xl:hover
+{
+    background-color: #0069d9;
+}
+
+.padding-play {
+    padding: 15rem 0;
+}
+
+/* banner */
+
+/* about */
+ 
+.about {
+    background-color: #fff;
+    margin-top: -70px;
+    color: #2b3a41;
+}
+
+.padding-both {
+    padding: 8rem 2rem;
+}
+
+#orange-back {
+    background-image: url('../images/Bitmap(2).png');
+    background-size: 100% 100%;
+    background-position: center;
+    max-width: 300px;
+    padding: 6rem 0;
+}
+
+.top-img {
+    margin-left: -60px;
+    margin-bottom: -140px;
+    max-width: 150px;
+}
+
+.about-title {
+    font-family: 'Baskervville', serif;
+    font-size: 35px;
+}
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: #2b3a41;
+    border-color: #2b3a41;
+    font-size: 12px;
+    padding: 5px 30px;
+}
+
+/* about */
+
+/* appointment */
+
+.appointment {
+    background-image: url('../images/Bitmap(3).png');
+}
+
+.btn-transparent {
+    border-radius: 0;
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    font-size: 14px;
+    padding: 5px 30px;
+}
+
+/* appointment */
+
+/* footer */
+
+ .footer {
+    background: #151414;
+ }
+
+/* footer */
+
+
+@media screen and (max-width: 480px)  {
+    .home {
+        background-size: 100% 50%;
+        background-position: bottom;
+    }
+
+    .padding-title {
+        padding: 4rem 2rem 6rem 2rem;
+    }
+
+    .padding-play {
+        padding: 12rem 0;
+    }
+
+    #orange-back {
+        padding: 6rem 2rem;
+    }
+    
+}
