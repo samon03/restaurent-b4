@@ -170,6 +170,10 @@ a {
     background-image: url('../images/Bitmap(3).png');
 }
 
+.padding-bottom {
+    padding-bottom: 8rem;
+}
+
 .btn-transparent {
     border-radius: 0;
     color: #fff;
@@ -180,6 +184,70 @@ a {
 }
 
 /* appointment */
+
+
+/* feature */
+
+.feature .card {
+   border: none;
+}
+
+.feature .card-body {
+    padding: 2rem 0;
+ }
+
+ .feature .card-body  p {
+    line-height: 1.8;
+ } 
+
+ /* .thumb {
+    margin-top: -50px;
+    z-index: 1;
+ } */
+
+ /* .icon-circle-dark { 
+    width: 60px; 
+    height: 60px; 
+    padding: 15px; 
+    border-radius: 35px; 
+    font-size: 16px; 
+    text-align: center; 
+    background-color: #2b3a41;
+    color: #cca58c;
+}  */
+
+/* feature */
+
+/* Menu */
+
+.list-group-item {
+  border: none;
+  padding: 1rem;
+}
+
+.list-group-item.active {
+    background-color: #2b3a41;
+    border-color: #2b3a41;
+}
+
+.btn-dark-outline {
+    border-radius: 0;
+    color: #2b3a41;
+    background-color: transparent;
+    border-color: #2b3a41;
+    font-size: 12px;
+    padding: 5px 30px;
+}
+
+/* Menu */
+
+/* Order */
+
+   .order {
+       background-image: url('../images/Bitmap\(12\).png');
+   }
+   
+/* Order */
 
 /* footer */
 
