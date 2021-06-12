@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Slider -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  
 
 
 </head>
@@ -492,8 +495,97 @@
                      </h1>
                  </div>
 
-               
-               
+                 <div class="slider-body">
+                    <div class="wrapper">
+                        <div class="carousel owl-carousel">
+                          <div>
+                            <div class="category-item">
+                                <img src="images/Bitmap(15).png" alt="category-image" class="lazy cat-img" >
+                                <div class="category-content d-flex align-items-center justify-content-center">
+                                    <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
+                                        <span class="badge">15 Jun</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <h5>National Day</h5>
+                                <p class="text-grey-light line-hg">
+                                    The copy warned the Little Blind Text, that where it came from it would have been   
+                                </p>
+                            </div>
+                          </div>
+
+                          <div>
+                            <div class="category-item">
+                                <img src="images/Bitmap(15).png" alt="category-image" class="lazy cat-img" >
+                                <div class="category-content d-flex align-items-center justify-content-center">
+                                    <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
+                                        <span class="badge">15 Jun</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <h5>National Day</h5>
+                                <p class="text-grey-light line-hg">
+                                    The copy warned the Little Blind Text, that where it came from it would have been   
+                                </p>
+                            </div>
+                          </div>
+
+                          <div>
+                            <div class="category-item">
+                                <img src="images/Bitmap(15).png" alt="category-image" class="lazy cat-img" >
+                                <div class="category-content d-flex align-items-center justify-content-center">
+                                    <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
+                                        <span class="badge">15 Jun</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <h5>National Day</h5>
+                                <p class="text-grey-light line-hg">
+                                    The copy warned the Little Blind Text, that where it came from it would have been   
+                                </p>
+                            </div>
+                          </div>
+
+                          <div>
+                            <div class="category-item">
+                                <img src="images/Bitmap(15).png" alt="category-image" class="lazy cat-img" >
+                                <div class="category-content d-flex align-items-center justify-content-center">
+                                    <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
+                                        <span class="badge">15 Jun</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <h5>National Day</h5>
+                                <p class="text-grey-light line-hg">
+                                    The copy warned the Little Blind Text, that where it came from it would have been   
+                                </p>
+                            </div>
+                          </div>
+
+                          <div>
+                            <div class="category-item">
+                                <img src="images/Bitmap(15).png" alt="category-image" class="lazy cat-img" >
+                                <div class="category-content d-flex align-items-center justify-content-center">
+                                    <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
+                                        <span class="badge">15 Jun</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <h5>National Day</h5>
+                                <p class="text-grey-light line-hg">
+                                    The copy warned the Little Blind Text, that where it came from it would have been   
+                                </p>
+                            </div>
+                          </div>
+
+                        </div>
+                    </div>    
+                 </div>
             </div>
         </div>
     </section>
@@ -748,11 +840,34 @@
 
     <!-- ====== Footer End ======= -->
 
+    <script>
+        $(".carousel").owlCarousel({
+    margin: 20,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    responsive: {
+      0:{
+        items:1,
+        nav: false
+      },
+      600:{
+        items:2,
+        nav: false
+      },
+      1000:{
+        items:3,
+        nav: false
+      }
+    }
+  });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-
+    <script src="js/slider.js"></script>
 </body>
 </html>                                                                                       

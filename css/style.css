@@ -211,7 +211,7 @@ a {
     padding: 2rem 0;
  }
 
- .feature .card-body  p {
+ .feature .card-body  p, .line-hg {
     line-height: 1.8;
  } 
 
@@ -320,6 +320,57 @@ a {
 
 /* chef */
 
+/* Event */
+
+.slider-body{
+    min-height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+.wrapper{
+    width: 100%;
+  }
+  .carousel{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .carousel .card-1{
+    background: #ed1c24;
+  }
+  .carousel .card-2{
+    background: #0072bc;
+  }
+  .carousel .card-3{
+    background: #39b54a;
+  }
+  .carousel .card-4{
+    background: #f26522;
+  }
+  .carousel .card-5{
+    background: #630460;
+  }
+  .owl-dots{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .owl-dot{
+    height: 5px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none;
+    border: 2px solid #0072bc!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: #0072bc!important;
+  }
+
+  /* event */
+
 /* customer */
 .org {
     color: #ecbb9c;
@@ -401,3 +452,61 @@ a {
     
 }
 
+.category-item {
+    position: relative;
+    z-index: 1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin-bottom: 30px;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.category-item .cat-img {
+    width: 100%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.category-item .category-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.category-item .category-content::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    background-color: #080808d2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    z-index: -1;
+}
+
+.category-item .badge {
+    font-size: 50px;
+    font-family: 'Baskervville', serif;
+}
