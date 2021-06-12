@@ -34,6 +34,10 @@ a {
     font-size: 12px;
 }
 
+.font-14 {
+    font-size: 14px;
+}
+
 /* banner */
 
 .navbar-brand {
@@ -211,23 +215,56 @@ a {
     line-height: 1.8;
  } 
 
- /* .thumb {
-    margin-top: -50px;
-    z-index: 1;
- } */
+ .card-item {
+    margin-bottom: 30px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 10px 40px rgba(82,85,90,0.1);
+    -moz-box-shadow: 0 10px 40px rgba(82,85,90,0.1);
+    box-shadow: 0 10px 40px rgba(82,85,90,0.1);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    position: relative;
+}
 
- /* .icon-circle-dark { 
-    width: 60px; 
-    height: 60px; 
+.card-item .card-image {
+    position: relative;
+}
+
+.card-item .card-image .card__img {
+    width: 100%;
+}
+
+.card-item .card-content {
+    position: relative;
+}
+
+.card-item .card-content .user-thumb {
+    position: absolute;
+    right: 30px;
+    top: -38px;
+    z-index: 1;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.img-circle {
+    width: 55px; 
+    height: 55px; 
     padding: 15px; 
     border-radius: 35px; 
     font-size: 16px; 
     text-align: center; 
     background-color: #2b3a41;
     color: #cca58c;
-}  */
-
-/* feature */
+}
 
 /* Menu */
 
@@ -248,6 +285,14 @@ a {
     border-color: #2b3a41;
     font-size: 12px;
     padding: 5px 30px;
+}
+
+.selector {
+    display: none;
+}
+
+.list-tab {
+    display: block;
 }
 
 /* Menu */
@@ -284,13 +329,46 @@ a {
     background: #fff;
 }
 
+.margin-minus {
+    margin-bottom: -70px;
+}
+
 /* customer */
 
 /* footer */
 
  .footer {
-    background: #151414;
+    background: #1b262a;
  }
+
+ .padding-top {
+    padding-top: 8rem;
+ }
+
+ .footer-list li a, .footer-list-icon li a {
+    color: #fff;
+    line-height: 1.8;
+ }
+
+ .footer-list li a:hover {
+    color: #ECBB9C;
+ }
+
+ .footer-list-icon li a:hover {
+    color: #2b3a41;
+    background-color: #fff;
+ }
+
+ .org-circle { 
+    width: 50px; 
+    height: 50px; 
+    padding: 8px 12px; 
+    border-radius: 25px; 
+    font-size: 12px; 
+    text-align: center; 
+    background-color: #ECBB9C;
+    color: #fff;
+} 
 
 /* footer */
 
@@ -312,5 +390,14 @@ a {
     #orange-back {
         padding: 6rem 2rem;
     }
+
+    .selector {
+        display: block;
+    }
+
+    .list-tab {
+        display: none;
+    }
     
 }
+

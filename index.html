@@ -178,41 +178,75 @@
 
                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-                     <div class="col">
-                      <div class="card">
-                        <img src="images/Bitmap(4).png" alt="" srcset="">
-                        <div class="card-body">
-                            <h4>Fresh Ingredients</h4>
-                            <p class="text-grey-light">
-                                The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times.
-                            </p>
+                    <div class="col responsive-column">
+                        <div class="card-item">
+                            <div class="card-image">
+                                <a class="d-block">
+                                    <img src="images/Bitmap(4).png" class="card__img" alt="">
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="" data-original-title="TechyDevs">
+                                   <div class="img-circle">
+                                    <i class="fas fa-fish"></i>
+                                   </div>
+                                </a>
+                                <div class="card-body">
+                                    <h4>Fresh Ingredients</h4>
+                                    <p class="text-grey-light">
+                                        The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card">
-                          <img src="images/Bitmap(5).png" alt="" srcset="">
-                          <div class="card-body">
-                              <h4>Fast Service</h4>
-                              <p class="text-grey-light">
-                                Copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times
-                            </p>
-                          </div>
+                    <div class="col responsive-column">
+                        <div class="card-item">
+                            <div class="card-image">
+                                <a class="d-block">
+                                    <img src="images/Bitmap(5).png" class="card__img" alt="">
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="" data-original-title="TechyDevs">
+                                   <div class="img-circle">
+                                    <i class="fas fa-utensils"></i>
+                                   </div>
+                                </a>
+                                <div class="card-body">
+                                    <h4>Fast Service</h4>
+                                    <p class="text-grey-light">
+                                      Copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
 
-                      <div class="col">
-                        <div class="card">
-                          <img src="images/Bitmap(6).png" alt="" srcset="">
-                          <div class="card-body">
-                              <h4>Hand Made</h4>
-                              <p class="text-grey-light">
-                                Warned the Little Blind Text, that where it came from it would have been rewritten a thousand times
-                             </p>
-                          </div>
+                    <div class="col responsive-column">
+                        <div class="card-item">
+                            <div class="card-image">
+                                <a class="d-block">
+                                    <img src="images/Bitmap(6).png" class="card__img" alt="">
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="" data-original-title="TechyDevs">
+                                   <div class="img-circle">
+                                    <i class="fas fa-biking"></i>
+                                   </div>
+                                </a>
+                                <div class="card-body">
+                                    <h4>Hand Made</h4>
+                                    <p class="text-grey-light">
+                                      Warned the Little Blind Text, that where it came from it would have been rewritten a thousand times
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                      </div> 
+                    </div>
+
                   </div>
             </div>
         </div>
@@ -220,7 +254,7 @@
 
     <!-- ====== Features End ======= -->
 
-    <!-- ====== Menu End ======= -->
+    <!-- ====== Menu ======= -->
     <section>
         <div class="feature">
             <div class="container padding-bottom">
@@ -235,13 +269,21 @@
                  </div>
 
                  <div class="row">
-                     <div class="col-md-4">
-                        <div class="list-group" id="list-tab" role="tablist">
+                     <div class="col-md-4 mb-5">
+                        <div class="list-group list-tab" id="list-tab" role="tablist">
                             <a class="list-group-item list-group-item-action active w-600">Meat</a>
                             <a class="list-group-item list-group-item-action w-600">Fish</a>
                             <a class="list-group-item list-group-item-action w-600">Bekary</a>
                             <a class="list-group-item list-group-item-action w-600">Drinks</a>
                         </div>
+
+                        <select class="form-select form-select-lg selector" aria-label=".form-select-lg example">
+                            <option selected>Meat</option>
+                            <option value="Fish">Fish</option>
+                            <option value="Bekary">Bekary</option>
+                            <option value="Drinks">Drinks</option>
+                        </select>
+
                      </div>
                      <div class="col-md-8">
                          <div>
@@ -425,7 +467,7 @@
                                     "There live the blind texts. Separated they live in right at the coast of the Semantics, 
                                     a large language ocean. Flows by their place and supplies it with the necessary regelialia." 
                                 </p>
-                                 <h1>About us</button>
+                                 <img src="images/Bitmap(23).png" width="150" class="img-fluid my-3" alt="" srcset="">
                              </div>
                         </div>
                     </div>
@@ -587,37 +629,33 @@
 
       <!-- ====== Contact ======= -->
       <section>
-        <div class="container padding-bottom">
-            <div class="banner">
-                <div>
-                    <div class="row"> 
-                        <div class="col-md-6">
-                            <div class="p-5 text-white">
-                                <div class="d-flex mt-4">
-                                        <hr class="border-middle"/>
-                                        <span class="mt-1 cap dm-16"> Appointment</span>
-                                </div>
-                                <h1 class="about-title mt-4">
-                                    +1(234)567-89-02
-                                </h1>
-                                <div class="mt-4">
-                                    <p class="font-12 mt-3 mb-2">Opening hours</p>
-                                    <h6 class="font-12">9.00am - 10.00pm</h6>
-                                </div>
-                            </div>
+        <div class="container margin-minus">
+            <div class="row"> 
+                <div class="col-md-6 banner">
+                    <div class="p-5 text-white">
+                        <div class="d-flex mt-4">
+                                <hr class="border-middle"/>
+                                <span class="mt-1 cap dm-16"> Appointment</span>
                         </div>
-                        <div class="col-md-6 customer">
-                            <div class="p-5">
-                                <div class="d-flex mt-4">
-                                        <hr class="border-middle-grey"/>
-                                        <span class="mt-1 cap dm-16 text-grey"> Delivery</span>
-                                </div>
-                                <h1 class="about-title text-grey my-3">
-                                    Order Now
-                                </h1>
-                                <button class="btn btn-dark-outline cap dm-16 mt-3">Contact Us</button>
-                            </div>
+                        <h1 class="about-title mt-4">
+                            +1(234)567-89-02
+                        </h1>
+                        <div class="mt-4">
+                            <p class="font-12 mt-3 mb-2">Opening hours</p>
+                            <h6 class="font-12">9.00am - 10.00pm</h6>
                         </div>
+                    </div>
+                </div>
+                <div class="col-md-6 customer">
+                    <div class="p-5">
+                        <div class="d-flex mt-4">
+                                <hr class="border-middle-grey"/>
+                                <span class="mt-1 cap dm-16 text-grey"> Delivery</span>
+                        </div>
+                        <h1 class="about-title text-grey my-3">
+                            Order Now
+                        </h1>
+                        <button class="btn btn-dark-outline cap dm-16 mt-3">Contact Us</button>
                     </div>
                 </div>
             </div>
@@ -625,76 +663,90 @@
     </section>
     <!-- ====== Contact End ======= -->
 
+    <!-- ====== Footer ======= -->
     <footer>
-        <div class="footer pt-0">
-            <div class="container p-5 text-grey">
-                <div class="row">
+        <div class="footer">
+           <div class="padding-top">
+            <div class="container px-5 pb-4 text-white">
+                <div class="row mb-5">
                     <div class="col-md-3 col-xs-6 mb-3">
-                        <div>
-                            <a href="#" class="f_logo">
-                                <img src="img/logo.png" width="50">
-                            </a>
-                            <p class="mt-4 pr-5">Proident commodo fusce, cupiditate curabitur mollis, dictum, eu, iure esse lobortis duis culpa eleifend placerat proin sapiente autem!</p>
-                        </div>
+                        <a class="navbar-brand" href="index.html">
+                            RST   
+                        </a>
                     </div>
-                    <div class="col-md-3 col-xs-6 mb-3 text-center">
+                    <div class="col-md-3 col-xs-6 my-3">
                         <div>
-                            <h3 class="f_title">Popular Services</h3>
+                            <h5 class="cap">Menu</h5>
                             <div>
-                                <ul class="mr-4">
-                                    <li><a href="social-media.html">Social Media</a></li>
-                                    <li><a href="email-marketing.html">Email Marketing</a></li>
-                                    <li><a href="seo-optimization.html">SEO Optimization</a></li>
+                                <ul class="footer-list mt-4 font-14">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Menu</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 mb-3 text-center">
-                        <div class="service_wedget">
-                            <h3 class="f_title">Helpful Links</h3>
-                            <div class="menu-helpful-links-container">
-                                <ul id="menu-helpful-links">
-                                    <li class="menu-item"><a href="about-us.html">About Us</a></li>
-                                    <li class="menu-item"><a href="contact-us.html">Contact Us</a></li>
+                    <div class="col-md-3 col-xs-6 my-3">
+                        <div>
+                            <h5 class="cap">Service</h5>
+                            <div>
+                                <ul class="footer-list mt-4 font-14">
+                                    <li><a href="#">Food</a></li>
+                                    <li><a href="#">Delivery</a></li>
+                                    <li><a href="#">Catering</a></li>
+                                    <li><a href="#">Book</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 mb-3 text-center">
-                        <div class="service_wedget">
-                            <h3 class="f_title">Support</h3>
-                            <div class="menu-support-container">
-                                <ul id="menu-support">
-                                    <li class="menu-item"><a href="#">Terms &amp; Condition</a></li>
-                                    <li class="menu-item"><a href="#">Privacy Policy</a></li>
-                                    <li class="menu-item"><a href="#">Case Study</a></li>
+                    <div class="col-md-3 col-xs-6 my-3">
+                        <div>
+                            <h5>Social</h5>
+                            <div>
+                                <ul class="d-flex footer-list-icon mt-4 font-14">
+                                    <li><a href="#" class="org-circle me-2">
+                                        <i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li><a href="#" class="org-circle me-2">
+                                        <i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li><a href="#" class="org-circle">
+                                        <i class="fab fa-instagram"></i></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row pt-5">
+                <hr>
+
+                <div class="row mt-4">
                     <div class="col-md-6">
                         <span>
-                            © 2021 All Rights Reserved 
+                           Copyrights © 2021 by Samon
                         </span>
                     </div>
-                    <div class="col-md-6 right">
-                        <span>
-                            Designed by 
-                            <a href="index.html" class="org">
-                                Data And Lead Store
-                            </a>
-                        </span>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-md-6">
+                                <a>Terms of Use</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a>Privacy Policy</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
-            
+           </div>
         </div>
     
     </footer>
+
+    <!-- ====== Footer End ======= -->
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
